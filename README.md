@@ -11,9 +11,14 @@ This is a python program that creates contours for a csv file that has the forma
 Use:
 
 Setup the virtual environment:
+
     python3.12 -m venv .venv 
+
 enter environment:
+
     source .venv/bin/activate
+
 install dependencies:
+
     python -m pip install -r requirments.txt 
 
