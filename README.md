@@ -1,23 +1,19 @@
-[build-system]
-requires = ["setuptools>=61.0"]
-build-backend = "setuptools.build_meta"
-[project]
-name = "lab1"
-version = "0.0.1"
-authors = [
-{ name="Ethan Grozell", email="ethan.grozell@ucalgary.ca" },
-]
-description="Script for lab 1 GOPH 457"
-readme = "README.md"
-requires-python = ">=3.8"
-dependencies = [
-"numpy",
-"matplotlib",
-]
-classifiers = [
-"Programming Language :: Python :: 3",
-"Operating System :: OS Independent",
-"License :: GNU General Public License v3",
-]
-[project.urls]
-"Homepage" = "https://github.com/egrozell/goph-457-lab01-stEG"
+# Contour Plotter 
+## GOPH457 Rock Physics 
+*Author:* E. Grozell
+
+*Instructor:* B. Karchewski 
+
+*Semester:* Winter 2024
+
+This is a python program that creates contours for a csv file that has the format x,y,z
+
+Use:
+
+Setup the virtual environment:
+    python3.12 -m venv .venv 
+enter environment:
+    source .venv/bin/activate
+install dependencies:
+    python -m pip install -r requirments.txt 
+
