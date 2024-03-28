@@ -4,7 +4,9 @@ import pandas as pd
 import numpy as np 
 
 def main():
-    plot_contour("horizontal_contour_g3.csv",19.5)
+    plot_contour("horizontal_survey_g1.csv",19.5)
+    plot_contour("horizontal_survey_g2.csv",19.5)
+    plot_contour("horizontal_survey_g3.csv",19.5)
 def plot_contour(file,depth):
     """
     takes file name that should be in csv format x, y, z with z being a value at x and y and plots a contour
